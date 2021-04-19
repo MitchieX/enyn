@@ -367,6 +367,10 @@
     padding-bottom: 60px;
   }
 
+  .main-header .other-links {
+    display: none;
+  }
+
   .services-section,
   .about-section,
   .gallery-section,

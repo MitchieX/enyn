@@ -1,60 +1,14 @@
-/*--------------------------------------------------------------
->>> TABLE OF CONTENTS:
-----------------------------------------------------------------
-1.	Fonts
-2.	Reset
-3.	Global Settings
-4.	Scroll To Top style
-5.	Main Header style / Header Style One
-6.	Sticky Header
-7.	Search Popup
-8.	Mobile Menu
-9.	Lazy Load Settings
-10.	Banner Section
-11.	Section Title
-12.	Services Section
-13.	About Section
-14.	Live Section
-15.	We DO Section
-16.	Gallery Section
-17.	Fun Facts Section
-18.	We DO Section
-19.	Team Section
-20.	Parallax Section
-21.	Sponsors Section
-22.	Agency Section
-23.	News Section
-24.	Call Section
-25.	Main Footer
-26.	Services Section
-27.	We DO Section
-28.	Gallery Section
-29.	Why Us Section
-30.	Testimonials Section
-31.	Parallax Section
-32.	We DO Section
-33.	Call Section
-34.	Call Section
-35.	Services Section
-36.	Discover Section
-37.	Parallax Section
-38.	We Work Section
-39.	Testimonials Section
-40.	We DO Section
-41.	Get Quote
-42.	Map Section
-43.	Sponsors Section
-44.	Page Banner
-45.	Faqs Section
-46.	Get Quote
-47.	Error Section
-48.	Contact Section
-49.	Sidebar Page Container
-50.	Comment Area
-51.	Leave Comments Form
-52.	Service Details
-53.	Service Details
---------------------------------------------------------------*/
+/* 
+
+Sitio creado por Solvum Tecnologia 
+http://solvum.com.br/
+
+Desarrollador Nathália Ornelas
+http://nathaliaornelas.com/
+
+Propietario del sitio Entre nervios y nervios
+
+*/
 
 /*
   font-family: 'Teko', sans-serif;
@@ -2939,6 +2893,12 @@ img.lazy-image.loaded {
   border-radius: 7px;
 }
 
+.about-section .image-column .image-block:hover img {
+  -webkit-filter: grayscale(0%);
+  -ms-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+}
+
 .about-section .image-column .image-block:nth-child(1) {
   margin-left: 110px;
 }
@@ -3858,8 +3818,7 @@ img.lazy-image.loaded {
 }
 
 .why-us-section .feature .inner-box:before {
-  content: url(images/icons/anatomia.png);
-  font-family: "Flaticon";
+  content: url(images/icons/invisible.png);
   position: absolute;
   left: 0;
   top: 0px;
